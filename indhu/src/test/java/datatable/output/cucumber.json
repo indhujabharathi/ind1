@@ -1,0 +1,36 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-25T04:23:00.873Z",
+        "line": 5,
+        "name": "Eating",
+        "description": "",
+        "id": "eating-fruits;eating",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2131800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "There are 12 fruits",
+            "match": {
+              "location": "clss1.a1a()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Eating fruits",
+    "description": "this explains about the fruits",
+    "id": "eating-fruits",
+    "keyword": "Feature",
+    "uri": "classpath:ind1/clss1.feature",
+    "tags": []
+  }
+]

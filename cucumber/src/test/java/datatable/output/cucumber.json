@@ -1,0 +1,183 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-23T11:16:58.359Z",
+        "line": 16,
+        "name": "Eating",
+        "description": "",
+        "id": "eating-fruits;eating;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7185900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "There are \"12\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12\"",
+                  "offset": 10
+                }
+              ],
+              "location": "cl1.aa(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "type",
+                  "with"
+                ]
+              },
+              {
+                "cells": [
+                  "apple",
+                  "me"
+                ]
+              },
+              {
+                "cells": [
+                  "orange",
+                  "john"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 739000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i eat \"3\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 6
+                }
+              ],
+              "location": "cl1.bb(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 688000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i have \"4\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 7
+                }
+              ],
+              "location": "cl1.c(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-23T11:16:58.505Z",
+        "line": 17,
+        "name": "Eating",
+        "description": "",
+        "id": "eating-fruits;eating;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2463200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "There are \"1\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 10
+                }
+              ],
+              "location": "cl1.aa(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "type",
+                  "with"
+                ]
+              },
+              {
+                "cells": [
+                  "apple",
+                  "me"
+                ]
+              },
+              {
+                "cells": [
+                  "orange",
+                  "john"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 692300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i eat \"4\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 6
+                }
+              ],
+              "location": "cl1.bb(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 741700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i have \"6\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6\"",
+                  "offset": 7
+                }
+              ],
+              "location": "cl1.c(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Eating fruits",
+    "description": "this explains about the fruits",
+    "id": "eating-fruits",
+    "keyword": "Feature",
+    "uri": "classpath:datatable/cl.feature",
+    "tags": []
+  }
+]
